@@ -26,7 +26,7 @@ Contact page is something necessary of our page if you have any improvement sugg
 
 
 ## User story :
-* As a user who loves to prepare food so I need a website help me to find all recipes from the ingredients that I have in my fridge to make it easy to me decide what I want meal for today.
+* * As a user I can find all recipes from the ingredients that I have in my fridge to make it easy to me decide what I want meal for today.
 * also, I need the website decide me sometimes and send me a random meal to try something new and different of what I eat as usual. 
 * it would be nice if the website have a section to get me the restaurants in some location and information about this restaurant in case I want to eat outside my house.
 
