@@ -24,6 +24,9 @@
 .nav-bar .nav-items .nav-menu li {
     margin: .5rem;
 }
+.nav-bar .nav-items .nav-menu li div {
+    display: none;
+}
 .nav-bar .nav-items li {
     text-align: center;
     font-size: .8rem;
@@ -32,11 +35,12 @@
     text-decoration: none;
     color: #ffffff;
 }
-.nav-bar .nav-items li a:hover {
-    color: #31302C ;
+.nav-bar .nav-items li a:hover{
+    color: #8EC1C2 ;
+    font-size: 1.2rem;
 }
 .nav-bar .nav-items li .active {
-    color: #31302C ;
+    color: #8EC1C2 ;
 }
 .nav-bar .nav-items li a i {
     font-size: 1.5rem;
@@ -57,7 +61,21 @@
     justify-content: center;
     align-items: center;
     height: 100px; 
+    flex-direction: column;
 
+}
+.footer-container .social-icon {
+    display: flex;
+    font-size: 1.1rem;
+}
+.footer-container .copyright {
+    color: #8EC1C2;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+}
+.footer-container .copyright i {
+    font-size: .8rem;
+    color: #F92F55;
 }
 .footer-container li i {
   color: #F92F55 ;
@@ -65,7 +83,7 @@
 
 }
 .footer-container li i:hover{
-  color:#ffffff ;
+  color:#8EC1C2 ;
   margin: 1rem;
 
 } 
@@ -83,6 +101,7 @@
     }
     .nav-bar .nav-items li {
         font-size: 1rem;
+        letter-spacing: .1em;
     }
     .nav-bar .nav-items .nav-menu{
         display: flex;
@@ -93,6 +112,9 @@
     }
     .nav-bar .nav-items .nav-menu li {
         margin: .5rem;
+    }
+    .nav-bar .nav-items .nav-menu li div {
+        display: block ;
     }
 
 }
