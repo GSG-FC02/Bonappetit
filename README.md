@@ -12,8 +12,6 @@
 * Our website provide the ability to access all the receipts that might know our not in how to make it with the ingredients that have already exists in your fridge. Also provide a link of YouTube video to make it easy to user to follow the chief do the choosing receipt.
 * The solution for the other problem is to make section for finding restaurants depending on specific area and provide all information your need to know about each restaurant.
 
-## wireframes :
-
 
 ## User journey :
 First of all, our site starts with “splash page” that make user enter the " Bonappetit " by clicking on “get started button” 
@@ -23,6 +21,12 @@ Navigation bar to make the user move between pages easily, and the section of Re
 The next page is Inspiration page by click inspiration link on navigation bar, this page contains a button called “Find your recipe for today”, this button may help you choose your recipe if you want to try something new, just don’t know what to eat today and get out of your comfort zone, so will appear a pop-up window that contain the random recipe and all the ingredient that you need also a you tube link to follow the chef doing this chosen recipe.
 If the user wants to know the restaurants in a specific location/area we create a page for this. the user can enter this page by clicking on the link that is on navigation bar and he can find a search box and write whatever the location he wants the restaurants from, then any restaurant he click on will appear a pop-up window contain the menu of chosen one and a specific location to make it easy to reach it out, also the link of the restaurant website.
 Contact page is something necessary of our page if you have any improvement suggestion or any problem , so feel free to contact us.
+
+figma screenshots:
+![f1](https://user-images.githubusercontent.com/77840855/114299456-026e9080-9ac4-11eb-89e9-beed5bb863c1.jpg)
+![f2](https://user-images.githubusercontent.com/77840855/114299458-04385400-9ac4-11eb-8b06-81953d48ca07.jpg)
+
+figma link : https://www.figma.com/file/Dd0PX2HA0pU133OGgzgvEA/Recipes-Generator?node-id=2%3A0
 
 
 ## User story :
