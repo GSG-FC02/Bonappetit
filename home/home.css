@@ -1,0 +1,41 @@
+
+/* Start index page sajarantisi */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#splash{
+    background:  linear-gradient(181.15deg, #FFABBB -20.84%, #F92F55 105.84%, #FCAABA 105.85%, #FF5B7A 105.85%), #FFFFFF;
+
+
+    
+}
+.logo-splash{
+    width: 125px;
+    height: 125px;
+    background: #FFFFFF;
+    border: 3px solid #F92F55;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.logo-splash img {
+    width: 120.23px;
+    height: 84.77px;
+
+}
+.box-welcome{
+    width: 326px;
+    height: 396.52px;
+    left: 44px;
+    top: 187.09px;
+    background: #31302C;
+    border-radius: 54px;
+}
+
+
+
+/* End index page sajarantisi */
+
