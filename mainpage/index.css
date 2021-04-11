@@ -92,9 +92,13 @@ html,body{
     position: absolute;
     top: -110px;
     left: -60px;
+    transition: all .2s ease;
+
 }
 .btn-lets-star button:hover{
     outline: none;
+    font-size: 18px;
+
 }
 
 /* End style index page  */
