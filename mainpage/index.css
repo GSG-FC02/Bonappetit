@@ -1,0 +1,127 @@
+/* Start style index page  */
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100% !important;
+}
+
+#splash{
+    height: 100%  !important;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background:  linear-gradient(181.15deg, #FFABBB -20.84%, #F92F55 105.84%, #FCAABA 105.85%, #FF5B7A 105.85%), #FFFFFF;
+}
+.main-splash{
+    position: relative;
+}
+.box-welcome{
+    width: 270px;
+    height: 360px;
+    top: -70px;
+    background: #31302C;
+    color: #fff;
+    border-radius: 54px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+}
+.box-welcome h1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-welcome span{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+}
+.box-welcome p {
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    line-height: 18px;
+}
+.logo-splash{
+    width: 125px;
+    height: 125px;
+    background: #FFFFFF;
+    border: 3px solid #F92F55;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    position: absolute;
+    left: 73px;
+    top: -135px;
+    z-index: 2;
+}
+.logo-splash img {
+    width: 120.23px;
+    height: 84.77px;
+}
+.btn-lets-star{
+    position: absolute;
+    left: 120px;
+    bottom: -13px;
+}
+
+.btn-lets-star button{
+    background: #FFFFFF;
+    border: 3px solid #F92F55;
+    box-sizing: border-box;
+    box-shadow: -5px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 23.5px;
+    width: 150px;
+    height: 43px;
+    color: #F92F55;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: -110px;
+    left: -60px;
+}
+.btn-lets-star button:hover{
+    outline: none;
+}
+
+/* End style index page  */
+
+@media screen and (min-width: 768px){
+    .box-welcome{
+        width: 400px;
+        height: 330px;
+        top: 0px;
+    }
+    .box-welcome h1 {
+        font-size: 39.5px;
+    }
+    .box-welcome span {
+        font-size: 16px;
+    }
+    .box-welcome p {
+        font-size: 14px;
+        width: 330px;
+    }
+    .logo-splash{
+        left: 135px;
+        top: -68px;
+    
+    }
+    .btn-lets-star button {
+        top: -40px;
+        left: 0px;
+    }
+}
