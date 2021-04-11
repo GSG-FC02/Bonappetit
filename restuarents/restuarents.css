@@ -8,7 +8,7 @@
     position: fixed;
     width: 100%;
     max-width: 100%;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .nav-bar .nav-items {
     list-style-type: none;
@@ -70,7 +70,7 @@
 }
 .footer-container .copyright {
     color: #8EC1C2;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
 }
 .footer-container .copyright i {
@@ -101,7 +101,6 @@
     }
     .nav-bar .nav-items li {
         font-size: 1rem;
-        letter-spacing: .1em;
     }
     .nav-bar .nav-items .nav-menu{
         display: flex;
