@@ -70,6 +70,7 @@ html,body{
 .logo-splash img {
     width: 120.23px;
     height: 84.77px;
+    object-fit: contain;
 }
 .btn-lets-star{
     position: absolute;
