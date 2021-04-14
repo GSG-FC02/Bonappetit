@@ -25,8 +25,10 @@ Contact page is something necessary of our page if you have any improvement sugg
 ## Figma
 
 Main views of our app:
-![f1](https://user-images.githubusercontent.com/77840855/114299456-026e9080-9ac4-11eb-89e9-beed5bb863c1.jpg)
-![f2](https://user-images.githubusercontent.com/77840855/114299458-04385400-9ac4-11eb-8b06-81953d48ca07.jpg)
+![f2v2](https://user-images.githubusercontent.com/46837680/114374957-dbc85c80-9b8c-11eb-8e28-3f36ea045b92.jpg)
+![f3v2](https://user-images.githubusercontent.com/46837680/114374977-e08d1080-9b8c-11eb-8c82-604fdc6f4cb9.jpg)
+![homev2](https://user-images.githubusercontent.com/46837680/114374985-e3880100-9b8c-11eb-8f0b-e220bc03bee3.jpg)
+
 
 ## Figma link :
 https://www.figma.com/file/Dd0PX2HA0pU133OGgzgvEA/Recipes-Generator?node-id=2%3A0
