@@ -1,0 +1,239 @@
+*{
+    margin : 0px;
+    padding : 0px;
+  }
+  html {
+    height:100%;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content{
+    flex: 1;
+  }
+  .nav-bar {
+    background-color: #F92F55;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Nunito', sans-serif;
+    z-index: 10;
+  }
+  .nav-bar .nav-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .nav-bar .nav-items .nav-menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar .nav-items .nav-menu li {
+    margin: .5rem;
+  }
+  .nav-bar .nav-items .nav-menu li div {
+    display: none;
+  }
+  .nav-bar .nav-items li {
+    text-align: center;
+    font-size: .8rem;
+  }
+  .nav-bar .nav-items li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .nav-bar .nav-items li a:hover{
+    color: #8EC1C2 ;
+    font-size: 1.2rem;
+  }
+  .nav-bar .nav-items li .active {
+    color: #8EC1C2 ;
+  }
+  .nav-bar .nav-items li a i {
+    font-size: 1.5rem;
+    margin: .5em;
+  }
+  
+  .nav-bar .nav-items .logo li a img {
+    width : 6rem
+  }
+  .footer-container{
+    background-color: #31302C;
+    bottom: 0; 
+    left: 0;
+    width:100%;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    flex-direction: column;
+  
+  }
+  .footer-container .social-icon {
+    display: flex;
+    font-size: 1.1rem;
+  }
+  .footer-container .copyright {
+    color: #8EC1C2;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+  }
+  .footer-container .copyright i {
+    font-size: .8rem;
+    color: #F92F55;
+  }
+  .footer-container li i {
+  color: #F92F55 ;
+  margin: 1rem;
+  
+  }
+  .footer-container li i:hover{
+  color:#8EC1C2 ;
+  margin: 1rem;
+  
+  } 
+  /*start  HOME page style */
+  .main-content {
+    padding-top:5.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content h1{
+    font-family: 'Londrina Solid', cursive;
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+    letter-spacing: .5px;
+    color:#F92F55;
+    border-bottom: 1px solid #8EC1C2;
+  
+  }
+  .page-name i {
+    color: #8EC1C2 ;
+  }
+  
+  .image-home img {
+    width : 100%
+  }
+  
+  .content-text{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+  }
+  .content-text form  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-text input{
+    height: 4rem;
+    width: 70vw;
+    border-radius: 30px 0px 0px 30px;
+    border: 4px solid #F92F55;
+    border-right: none;
+    padding: 20px;
+    outline: none;
+  }
+  .content-text .find-button{
+    height: 4rem;
+    width: 3.5rem;
+    border-radius:0px 30px 30px 0px ;
+    border:  4px solid #F92F55;
+    border-left: none;
+    color: #F92F55;
+    font-size: 1rem;
+    background-color: #ffffff;
+    padding: 20px;
+    outline: none;
+  
+  }
+  
+  .content-text .find-input::placeholder {
+    font-size: 1rem;
+    color: #F92F55;
+  
+  }
+  .content-text h2 {
+    font-family:'Londrina Solid', cursive;
+    font-weight: bold;
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    color:#31302C ;
+  }
+  .content-text p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin:  0rem 2rem;
+  }
+  
+  /* end hme page stayle */
+  
+  @media screen and (min-width: 800px){
+    .nav-bar {
+      width: 20vw;
+      max-width: 150px;
+      height: 100%;
+    }
+    .nav-bar .nav-items {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .nav-bar .nav-items li {
+      font-size: 1rem;
+    }
+    .nav-bar .nav-items .nav-menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      top : 5rem
+    }
+    .nav-bar .nav-items .nav-menu li {
+        margin: .5rem;
+    }
+    .nav-bar .nav-items .nav-menu li div {
+      display: block ;
+    }
+    .main-content {
+      padding-left: 9rem;
+      padding-top: 0;
+    }
+    .main-content .page-name{
+      font-size: 2.5rem;
+    }
+    .header-content {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: end;
+      margin: 3rem;
+  
+    }
+  
+    .image-home img {
+      width : 40vw
+    }
+    .content-text input {
+      width: 80%;
+      margin-left: auto;
+      margin-left: auto;
+  
+    }
+    .main-content form {
+      margin: 1rem 2rem;
+      width: 30vw;
+    }
+  .content-text .find-input{
+      width: 30vw;
+    }
+  
+  
+  }
