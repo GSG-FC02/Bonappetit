@@ -1,6 +1,6 @@
 # Bonappetit
 
-## Resipe generarter (get the respipes that use this in greaden or get the respie for a specific meal)
+#### Resipe generarter (get the respipes that use this in greaden or get the respie for a specific meal)
 
 
 
