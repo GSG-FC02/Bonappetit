@@ -4,12 +4,12 @@
 
 
 
-## Problems :
+## Problem :
 
 * The main problem that makes us cearte this wibsite is the daialy challeng for pepole " What to eat for today?". But still using the ingredients in the fridge.
 * The other problem is people / users may wonder what the restaurant in some area and need information about restaurants. 
  
-## The Soluation :
+## Soluation :
 
 * Our website provide the ability to access all the receipts that might know our not in how to make it with the ingredients that have already exists in your fridge. Also provide a link of YouTube video to make it easy to user to follow the chief do the choosing receipt.
 * The solution for the other problem is to make section for finding restaurants depending on specific area and provide all information your need to know about each restaurant.
