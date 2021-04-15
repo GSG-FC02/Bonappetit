@@ -151,6 +151,8 @@
     background-color: #ffffff;
     padding: 20px;
     outline: none;
+    cursor: pointer;
+
   
   }
   
@@ -305,7 +307,7 @@
 
 #overlay.active {
   opacity: 0.5;
-  pointer-events: all;
+  
 }
 .modal-body h2 {
     margin: .5rem 0px;
@@ -386,6 +388,10 @@
   }
   .div_img_recipe img {
     /* width: 500px; */
+  }
+  #overlay.active {
+    opacity: 0.5;
+    
   }
 
 
