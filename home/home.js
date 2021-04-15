@@ -115,21 +115,3 @@ btn_search.addEventListener('click',function git_Recipe(e){
     .catch(err => console.log('err',err))// console لطباعة الخطأ داخل ال 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
