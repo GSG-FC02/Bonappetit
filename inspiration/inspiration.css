@@ -10,6 +10,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Nunito", sans-serif;
 }
 .main-content {
   flex: 1;
@@ -157,6 +158,23 @@ form {
   background-color: #8ec1c2;
   color: #f92f55;
 }
+.title {
+  color: white;
+}
+.close-button {
+  color: #f92f55;
+}
+.list {
+  display: flex;
+}
+
+.Ingredient-item {
+  list-style: none;
+  margin-left: 30px;
+}
+.measure-item {
+  list-style: none;
+}
 
 @media screen and (min-width: 800px) {
   .nav-bar {
@@ -224,5 +242,68 @@ form {
   }
   .image-inspiration img {
     width: 45vw;
+  }
+  /*     Pop window style */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 15px;
+    z-index: 10;
+    background-color: #8ec1c2;
+    width: 500px;
+    max-width: 80%;
+    overflow-y: scroll;
+    height: 60%;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f92f55;
+  }
+
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .modal-body {
+    padding: 10px 15px;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
   }
 }
