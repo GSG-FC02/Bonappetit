@@ -209,7 +209,10 @@ body {
     font-size: 1.4rem;
     color: #ffffff;
 }
-
+#notFound{
+    background-color: #F92F55 !important;
+    grid-template-columns: 1fr!important;
+}
 
 @media screen and (min-width: 800px){
     .nav-bar {
