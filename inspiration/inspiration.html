@@ -60,9 +60,32 @@
             </div>
             <div class="left-side">
                 <form>
-                        <button class="form-btn">Recipe for Today !!</button>
-                </form>
-                <h1>Get Your Recipe For Today !!</h1>
+                    <button data-modal-target="#modal"class="form-btn" id="recipe-btn">Recipe for Today !!</button>
+                    <div class="modal" id="modal">
+                      <div class="modal-header">
+                        <div class="title" id="recipe-name">Recipe Name</div>
+                        <button data-close-button class="close-button">&times;</button>
+                      </div>
+                      <div class="modal-body">
+                        <h3 style="color: #f92f55;">Ingredients:</h3>
+                        <div class="list">
+                           <ul id="measure">
+
+                          </ul>  
+                          <ul id="Ingredients" >
+                           
+                          </ul>
+                         
+                        </div>
+                          
+                        <br>
+                        <h3 style="color: #f92f55;">Instructions:</h3>
+                       <p id ="instruction"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!</p>
+                      </div>
+                    </div>
+                    <div id="overlay"></div>
+                 </form>
+                <h1 style="font-family:  'Londrina Solid', cursive;">Get Your Recipe For Today !!</h1>
                 <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h2>
             </div>    
             
@@ -80,6 +103,7 @@
                 <div class = "copyright">Copyright <i class="far fa-copyright"></i> 2021 by SNS team</div>
             </ul>
         </footer>
-        
+        <script src="./inspiration.js"></script>
+
 </body>
 </html> 
