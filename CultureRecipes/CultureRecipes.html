@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/restuarents/restuarents.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CultureRecipes/CultureRecipes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Resturants</title>
+    <title>Find meal</title>
 </head>
 <body>
     <header>
@@ -49,7 +49,36 @@
         </nav>
     </header>
     <main class = "main-content">
-
+        <div class = "Page-name-header"><i class="fas fa-star"></i> Meals by Area</div>
+        <section class = "Meal-section">
+            <figure class = "Meal-illustrations">
+                <img src="/images/Rstuarents.png" alt="Meal-illustration">
+            </figure>
+            <div class = "Meal-content">
+                <!-- search box -->
+                <form class = "search-Meal">
+                    <input type= "text" class ="find-input" placeholder="Find meal by area" id = "search-input">
+                    <button class = "find-button" type="submit" id = "search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <!-- search box -->
+                <div class = "Header-content">
+                    Get All Resturents from the location you want
+                </div>
+                <div class = "Header-discription">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class = "meal-result">
+                <div id= "meal">
+                <!-- meal item -->
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <ul class = "footer-container">
@@ -62,5 +91,6 @@
             <div class = "copyright">Copyright <i class="far fa-copyright"></i> 2021 by SNS team</div>
         </ul>
     </footer>
+    <script src = "/CultureRecipes/CultureRecipes.js"></script>
 </body>
 </html>
