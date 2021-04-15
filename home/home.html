@@ -34,7 +34,7 @@
                         </a>
                     </li>
                     <li >
-                        <a href="../restuarents/restuarents.html">
+                        <a href="../CultureRecipes/CultureRecipes.html">
                             <i class="fas fa-utensils"></i>
                             <div>Resturants</div>
                         </a>
@@ -61,16 +61,55 @@
             </div>
             <div class="content-text">
                 <form action="">
-                    <input type="search" placeholder="Search by ingredients" name="input-ingredients">
+                    <input type="search" placeholder="Search by ingredients" name="input-ingredients" id="input">
                     <button class = "find-button" type="submit" name="btn-search">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
-                <h2>Get All Resipes from the ingredients</h2>
-                <p>Search for the recipes you want by searching for an ingredient,
-                     all recipes that contain these ingredients will appear for you.</p>
+                <h2>Get All Resipes from the Recipes</h2>
+                <p>Find the recipe you want, the recipe image and name will appear for you.</p>
             </div>
         </div>
+                <!-- popup -->
+
+        
+                <div class="modal" id="modal">
+                    <div class="modal-header">
+                      <div class= "sub-header">
+                        <div class="header-title"></div>
+                        <button data-close-button class="close-button">&times;</button>
+                      </div>
+                      <div class= "sub-header info">
+                          <div class="row_info">  
+                              <h3>Area : </h3>
+                              <div class= "Area"><a href=""></a></div> 
+                          </div>
+                          <div class="row_info">
+                              <h3>Category : </h3>
+                              <div class= "Category"></div>
+                          </div>
+                      
+                      </div>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Instructions</h3>
+          
+                      <div class="Instructions"> </div>
+                      <h3>Ingredient : </h3>
+                      <div class="Ingredient"></div>
+                      <h3>Measure : </h3>
+                      <div class="Measure"></div>
+                      <h3>Youtube : </h3>
+                      <div class="Youtube"><a href="" target="_blank">Youtube Link</a></div>
+                      <h3>Source : </h3>
+                      <div class="Source"><a href="" target="_blank">Source Link</a></div>
+                    </div>
+                  </div>
+                  <div id="overlay"></div>
+          
+                  
+                  <!-- popup -->
+          
     </section>
     
 </main>
@@ -88,6 +127,6 @@
         <div class = "copyright">Copyright <i class="far fa-copyright"></i> 2021 by SNS team</div>
     </ul>
 </footer>
-    <script src="./home.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
