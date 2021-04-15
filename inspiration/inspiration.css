@@ -1,4 +1,5 @@
-* {
+[12:00 AM, 4/16/2021] Saja Rantisi: 0000000000000000000
+[12:00 AM, 4/16/2021] Saja Rantisi: * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -154,6 +155,7 @@ form {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   outline: none;
+  cursor: pointer;
 }
 .form-btn:hover {
   background-color: #8ec1c2;
