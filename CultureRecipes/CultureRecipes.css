@@ -1,3 +1,4 @@
+/* general style */
 *{
     margin : 0px;
     padding : 0px;
@@ -9,7 +10,9 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Nunito', sans-serif ;
 }
+/* nav bar style */
 .main-content{
     flex: 1;
 }
@@ -19,6 +22,7 @@ body {
     width: 100%;
     max-width: 100%;
     font-family: 'Nunito', sans-serif;
+    z-index: 10;
 }
 .nav-bar .nav-items {
     list-style-type: none;
@@ -60,6 +64,7 @@ body {
 .nav-bar .nav-items .logo li a img {
     width : 6rem
 }
+/* footer style */
 .footer-container{
     background-color: #31302C;
     bottom: 0; 
@@ -97,8 +102,122 @@ body {
   margin: 1rem;
 
 } 
+/* main content */
+.main-content {
+    padding-top:5.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .Page-name-header{
+    font-family: 'Londrina Solid', cursive;
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+    letter-spacing: .5px;
+    color:#F92F55;
+    border-bottom: 1px solid #8EC1C2;
 
-@media screen and (min-width: 600px){
+}
+.main-content .Page-name-header i {
+    color: #8EC1C2 ;
+}
+.main-content h1 {
+    font-family:'Nunito', sans-serif ;
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    color:#31302C ;
+    
+}
+.Meal-illustrations img {
+    width : 100%
+}
+
+.Meal-content{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+.search-Meal  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-Meal .find-input{
+     width: 70vw;
+     border-radius: 30px 0px 0px 30px;
+     border: 4px solid #F92F55;
+     border-right: none;
+     padding: 20px;
+     outline: none;
+}
+.search-Meal .find-button{
+    height: 4rem;
+    width: 3.5rem;
+    border-radius:0px 30px 30px 0px ;
+    border:  4px solid #F92F55;
+    border-left: none;
+    color: #F92F55;
+    font-size: 1rem;
+    background-color: #ffffff;
+    padding: 20px;
+    outline: none;
+
+}
+
+.search-Meal .find-input::placeholder {
+    font-size: 1rem;
+    color: #F92F55;
+
+  }
+.Header-content {
+    font-family:'Londrina Solid', cursive;
+    font-weight: bold;
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    color:#31302C ;
+  }
+.Header-discription{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin:  0rem 2rem;
+  }
+
+/* meal Results */
+.meal-result{
+    margin: 2rem;
+}
+#meal{
+    margin: 2.4rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.meal-item{
+    overflow: hidden;
+    background-color: #8EC1C2;
+    margin-bottom: 1rem;
+}
+.meal-img img{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+}
+.meal-name{
+    padding: 1.5rem 1rem;
+}
+.meal-name h3{
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+#notFound{
+    background-color: #F92F55 !important;
+    grid-template-columns: 1fr!important;
+}
+
+@media screen and (min-width: 800px){
     .nav-bar {
         width: 20vw;
         max-width: 150px;
@@ -125,5 +244,55 @@ body {
     .nav-bar .nav-items .nav-menu li div {
         display: block ;
     }
+    .main-content {
+        padding-left: 9rem;
+        padding-top: 0;
+    }
+    .main-content .Page-name-header{
+        font-size: 2.5rem;
+        border-bottom: solid 1px #8EC1C2;
+    }
+    .Meal-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+        margin: 3rem;
 
+    }
+
+    .Meal-content{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+        width: 40vw;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+    .Meal-illustrations img {
+        width : 40vw
+    }
+    .search-Meal {
+         width: 80%;
+         margin-left: auto;
+         margin-left: auto;
+
+    }
+    .main-content form {
+        margin: 1rem 2rem;
+        width: 30vw;
+    }
+	.search-Meal .find-input{
+         width: 30vw;
+    }
+
+    /* meal Results */
+    #meal{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .meal-item{
+        margin: 0;
+    }
 }
