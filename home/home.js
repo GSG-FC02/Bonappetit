@@ -8,8 +8,8 @@ const Instructions = document.querySelector('.Instructions')
 const Category = document.querySelector('.Category')
 const Ingredient = document.querySelector('.Ingredient')
 const Measure = document.querySelector('.Measure')
-const Youtube = document.querySelector('.Youtube')
-const Source = document.querySelector('.Source')
+const Youtube = document.querySelector('.Youtube a')
+const Source = document.querySelector('.Source a')
 
 
 btn_search.addEventListener('click',function git_Recipe(e){
@@ -67,8 +67,8 @@ btn_search.addEventListener('click',function git_Recipe(e){
             ${s.strMeasure7}, ${s.strMeasure8}, ${s.strMeasure9}, ${s.strMeasure10}, ${s.strMeasure11}, ${s.strMeasure12}, ${s.strMeasuret13}
             , ${s.strMeasure14}, ${s.strMeasure15}, ${s.strMeasure16}, ${s.strMeasure17}, ${s.strMeasure18}, ${s.strMeasure19} , ${s.strMeasure20} `)
 
-            Youtube.textContent=(s.strYoutube)
-            Source.textContent=(s.strSource)
+            Youtube.setAttribute('href',s.strYoutube)
+            Source.setAttribute('href',s.strSource)
 
             const openModalButtons = document.querySelectorAll('[data-modal-target]')
                 openModalButtons.forEach(img_recipe => {
