@@ -28,9 +28,9 @@ Contact page is something necessary of our page if you have any improvement sugg
 ## Figma Views : 
 
 Main views of our app:
-![f2v2](https://user-images.githubusercontent.com/46837680/114374957-dbc85c80-9b8c-11eb-8e28-3f36ea045b92.jpg)
-![f3v2](https://user-images.githubusercontent.com/46837680/114374977-e08d1080-9b8c-11eb-8c82-604fdc6f4cb9.jpg)
-![homev2](https://user-images.githubusercontent.com/46837680/114374985-e3880100-9b8c-11eb-8f0b-e220bc03bee3.jpg)
+![741](https://user-images.githubusercontent.com/46837680/114874851-64e9c880-9e05-11eb-9c68-dfe843962a57.PNG)
+![963](https://user-images.githubusercontent.com/46837680/114874875-6adfa980-9e05-11eb-956f-e6d13e6ff9b2.PNG)
+![852](https://user-images.githubusercontent.com/46837680/114874883-6ca96d00-9e05-11eb-929b-2cb5d625b603.PNG)
 
 
 ## Figma link :
