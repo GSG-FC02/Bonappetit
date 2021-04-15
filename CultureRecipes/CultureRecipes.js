@@ -8,8 +8,11 @@ function getMealList(){
     let searchInput = document.getElementById('search-input').value.trim();
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?a=${searchInput}`)
     .then(response => response.json())
-    .then(data.meals.forEach(meal => {
-            const mealItem = document.createElement('div')
+    .then(data => {
+        e.preventDefault();
+        if(data.meals){
+            data.meals.forEach(meal => {
+                const mealItem = document.createElement('div')
                 mealItem.setAttribute('id', '${meal.idMeal}')
                 mealItem.classList.add('meal-item')
 
@@ -30,8 +33,12 @@ function getMealList(){
 
                 mealItem.appendChild(mealImgContainer)
                 mealItem.appendChild(mealName)
-                mealList.appendChild(mealItem)
-            }
-        )
-    )
-}
+            });
+        } else{
+            html = "Sorry, we didn't find any meal by this area!";
+            mealList.classList.add('notFound');
+        }
+
+        mealList.appendChild(mealItem)
+}   )};
+    
