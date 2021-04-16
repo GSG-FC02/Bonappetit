@@ -1,5 +1,4 @@
-[12:00 AM, 4/16/2021] Saja Rantisi: 0000000000000000000
-[12:00 AM, 4/16/2021] Saja Rantisi: * {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -455,6 +454,6 @@ form {
 
   #overlay.active {
     opacity: 1;
-    pointer-events: all;
+    
   }
 }
